@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_google.xml",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui/0.6.1/res/drawable-anydpi-v21/ic_google.xml"
+    },
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_facebook.xml",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui/0.6.1/res/drawable-anydpi-v21/ic_facebook.xml"
+    },
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_twitter.xml",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui/0.6.1/res/drawable-anydpi-v21/ic_twitter.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_circle_black_48dp.png",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/src/main/res/drawable-xxhdpi/ic_account_circle_black_48dp.png"
+    },
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-xxhdpi/add.png",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/src/main/res/drawable-xxhdpi/add.png"
+    },
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_forum_white_24dp.png",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/src/main/res/drawable-xxhdpi/ic_forum_white_24dp.png"
+    },
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_home_white_24dp.png",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/src/main/res/drawable-xxhdpi/ic_home_white_24dp.png"
+    },
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_settings_white_24dp.png",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/src/main/res/drawable-xxhdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/Users/kartiksharma/Desktop/Codennect/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_add_white_24dp.png",
+        "source": "/Users/kartiksharma/Desktop/Codennect/app/src/main/res/drawable-xxhdpi/ic_add_white_24dp.png"
+    }
+]

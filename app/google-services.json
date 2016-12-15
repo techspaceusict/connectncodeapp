@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1061136325558",
+    "firebase_url": "https://codennect-4f2c3.firebaseio.com",
+    "project_id": "codennect-4f2c3",
+    "storage_bucket": "codennect-4f2c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061136325558:android:4bad7a993e56dd57",
+        "android_client_info": {
+          "package_name": "sodevan.codennect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061136325558-e0j1rr9m4pkfarmhu34018j3v45mkv0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpQ-yl8oPSZbG7rSXvIoBsrJi1Vn2HvfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

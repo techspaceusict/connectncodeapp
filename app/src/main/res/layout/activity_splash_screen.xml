@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context="sodevan.codennect.SplashScreen"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/connect"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/applogo"
+
+            />
+
+
+
+
+         <TextView
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:text="CODENNECT"
+             android:textColor="@color/white"
+             android:textSize="40sp"
+             android:id="@+id/appname"
+             android:layout_below="@id/applogo"
+             android:layout_marginTop="30dp"
+             />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tagline"
+            android:layout_below="@id/appname"
+            android:layout_marginTop="60dp"
+            android:text="Connect | Code"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

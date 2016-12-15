@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sodevan.codennect.SignUp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="10dp"
+        android:id="@+id/texad"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Sign Up"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/suhead"
+        />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/texad"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/etname"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/etshape"
+            android:padding="20dp"
+            android:layout_centerHorizontal="true"
+            />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:id="@+id/etemail"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/etshape"
+                android:padding="20dp"
+                android:layout_below="@id/etname"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="College"
+                android:id="@+id/etcollege"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/etshape"
+                android:padding="20dp"
+                android:layout_below="@id/etemail"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Contact No"
+                android:id="@+id/etno"
+                android:ems="10"
+                android:inputType="phone"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/etshape"
+                android:padding="20dp"
+                android:layout_below="@id/etcollege"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etno"
+                android:id="@+id/Loginbutton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:background="@drawable/button"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_marginBottom="30dp"/>
+
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

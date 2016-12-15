@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_question_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+
+    tools:context="sodevan.lafly.QuestionScreen">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ques_ques"
+        android:text="How Does it feel When You see your friends getting married and you are not able to find someone for yourself"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:background="@color/white"
+        android:padding="16dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/maindivider"
+        android:layout_below="@id/ques_ques"
+        android:background="@android:color/darker_gray"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ques_sc_lv"
+        android:dividerHeight="2dp"
+        android:divider="#E0E0E0"
+        android:layout_below="@id/maindivider"
+        />
+
+
+    </RelativeLayout>
